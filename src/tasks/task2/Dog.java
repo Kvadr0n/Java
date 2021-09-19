@@ -47,7 +47,7 @@ public class Dog
 
     public String toString()
     {
-        return(name + ", age " + age);
+        return(name + ", age " + age + ", age(human years) " + age*7);
     }
 
     public void intoHumanAge()
